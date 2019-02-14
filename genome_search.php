@@ -70,11 +70,11 @@
                           </ul>
                         </div>
                       
-                          <div class="card-body" >
+                          	<div class="card-body" >
     
                               <div class="tab-content tab-content-solid">
 
-                                <div class="tab-pane fade active show" id="genome-1" role="tabpanel" aria-labelledby="tab-1">
+                 				<div class="tab-pane fade active show" id="genome-1" role="tabpanel" aria-labelledby="tab-1">
 
                                   <div class="row">
                                     <div class="col-md-12">
@@ -167,6 +167,8 @@
                                   </div>
                                   <!-- END Strand -->
 
+                    <div class="row">
+                       <label class="col-sm-1 col-form-label" style="line-height: 215px;">Quality</label>
                         <div class="mt-5 pt-4 w-75 mx-auto">
                           <div id="soft-limit-3" class="ul-slider slider-danger mb-5 mt-5 noUi-target noUi-ltr noUi-horizontal">
                             <div class="noUi-base">
@@ -209,9 +211,108 @@
                           </div>
                         </div>
 
+                    </div>
+
+                    <div class="row">
+                       <label class="col-sm-1 col-form-label" style="line-height: 215px;">Depth</label>
+                        <div class="mt-5 pt-4 w-75 mx-auto">
+                          <div id="soft-limit-3" class="ul-slider slider-danger mb-5 mt-5 noUi-target noUi-ltr noUi-horizontal">
+                            <div class="noUi-base">
+                              <div class="noUi-origin" style="left: 24%;">
+                                <div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="82.0" aria-valuenow="24.0" aria-valuetext="24.00" style="z-index: 5;">
+                                  <div class="noUi-tooltip">240.00</div>
+                                </div>
+                              </div>
+                              <div class="noUi-connect" style="left: 24%; right: 18%;"></div>
+                              <div class="noUi-origin" style="left: 82%;">
+                                <div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="24.0" aria-valuemax="100.0" aria-valuenow="82.0" aria-valuetext="82.00" style="z-index: 4;">
+                                  <div class="noUi-tooltip">820.00</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="noUi-pips noUi-pips-horizontal">
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 0%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 0%;">0</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 10%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 10%;">100</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 20%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 20%;">200</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 30%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 30%;">300</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 40%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 40%;">400</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 50%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 50%;">500</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 60%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 60%;">600</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 70%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 70%;">700</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 80%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 80%;">800</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 90%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 90%;">900</div>
+                              <div class="noUi-marker noUi-marker-horizontal noUi-marker-large" style="left: 100%;"></div>
+                              <div class="noUi-value noUi-value-horizontal noUi-value-large" style="left: 100%;">999</div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row" style="margin-bottom: 20px; ">
+                       <label class="col-sm-2 col-form-label" style="line-height: 55px;">Access</label>
+                    	<div class="form-group">
+                          <label>Multiple select</label>
+                          <select class="js-example-basic-multiple select2-hidden-accessible" multiple="" style="width:100%;" tabindex="-1" aria-hidden="true">
+                            <option value="AL">Alabama</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="AM">America</option>
+                            <option value="CA">Canada</option>
+                            <option value="RU">Russia</option>
+                            <option value="AL">Alabama</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="AM">America</option>
+                            <option value="CA">Canada</option>
+                            <option value="RU">Russia</option>
+                            <option value="AL">Alabama</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="AM">America</option>
+                            <option value="CA">Canada</option>
+                            <option value="RU">Russia</option>
+                          </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                       <label class="col-sm-2 col-form-label" style="line-height: 20px;">Sequence</label>
+                       	<div class="form-group">
+                       		<textarea class="form-control" id="exampleTextarea1" rows="2" style="width: 500px; height: 200px;"></textarea>
+                   		</div>
+
+                   </div>
+
+                   <div class="template-demo" style="margin-top: 50px;">
+                          <button type="button" class="btn btn-success btn-block">Search</button>
+                          <button type="button" class="btn btn-light btn-block">Clear</button>
+                        </div>
+
+
+
+
+            </div>
+
+            <div class="tab-pane fade" id="genome-2" role="tabpanel" aria-labelledby="tab-2">
+
+                                  
+
+
+
+                    </div>
+
 
 
                                 </div>
+
                               </div>
 
                             
@@ -226,7 +327,6 @@
             </div>
          
           
-            <?php include('footer.php'); ?> 
         </div>
         <!-- main-panel ends -->
       </div>
@@ -237,3 +337,5 @@
     </body>
 </html>
 <script src="theme/assets/js/shared/dragula.js"></script>
+<script src="theme/assets/js/shared/iCheck.js"></script>
+<script src="theme/assets/js/shared/select2.js"></script>
